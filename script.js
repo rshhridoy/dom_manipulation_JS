@@ -37,17 +37,42 @@
 // console.log(div.setAttribute("id", "1st div"))
 
 
+// let button = document.createElement("button");
+
+// button.innerText = "Click Me";
+
+// console.dir(button);
+
+// let div = document.querySelector("div");
+
+// div.append(button)
+// div.prepend(button)
+// div.before(button)
+// div.after(button)
+
+// div.remove()
+
+
+
+
+
+// Practice
+
+
 let button = document.createElement("button");
-
 button.innerText = "Click Me";
+button.style.backgroundColor = "red";
+button.style.color = "White";
 
-console.dir(button);
+let body = document.querySelector("body");
 
-let div = document.querySelector("div");
+body.prepend(button);
 
-div.append(button)
-div.prepend(button)
-div.before(button)
-div.after(button)
 
-div.remove()
+let para = document.querySelector('p');
+
+console.dir(para);
+
+
+// para.setAttribute("class","newbox");
+

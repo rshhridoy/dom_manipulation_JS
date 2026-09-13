@@ -19,6 +19,8 @@ div{
     display: flex;
     justify-content: center;
     border-radius: 10px;
+    height: 200px;
+    width: 20px0;
 }
 
 #head4{

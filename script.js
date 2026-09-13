@@ -49,3 +49,5 @@ div.append(button)
 div.prepend(button)
 div.before(button)
 div.after(button)
+
+div.remove()

@@ -1,0 +1,26 @@
+h1{
+    color: whitesmoke;
+    background-color: darkred;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    background-color: #121212;
+    color: whitesmoke;
+}
+
+div{
+    margin: 20px;
+    color: aliceblue;
+    padding: 2px;
+    background-color: darkred;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+#head4{
+    color: blue;
+}

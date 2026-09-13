@@ -14,14 +14,24 @@
 // }
 
 
-let div = document.querySelector("div");
-console.dir(div);
+// let div = document.querySelector("div");
+// console.dir(div);
 
-div.style.backgroundColor = "blue"; 
-div.style.backgroundColor = "purple"; 
+// div.style.backgroundColor = "blue"; 
+// div.style.backgroundColor = "purple"; 
 
-div.style.fontSize = "40px";
+// div.style.fontSize = "40px";
 
-div.innerText = "Hello!"
+// div.innerText = "Hello!"
 
 // div.style.visibility = "hidden";
+
+
+let div = document.querySelector("div");
+let id = div.getAttribute("id");
+console.log(id);
+console.log(div.getAttribute("name"));
+
+
+
+console.log(div.setAttribute("id", "1st div"))

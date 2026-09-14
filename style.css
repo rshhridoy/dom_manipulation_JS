@@ -6,3 +6,7 @@ div{
     color: white;
     background-color: darkblue;
 }
+
+#toggle{
+    margin-left: 500px;
+}
